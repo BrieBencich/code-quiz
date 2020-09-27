@@ -8,5 +8,17 @@ body {
 }
 
 .highscore:hover {
-color: lightpink;
+color: plum;
+}
+
+button {
+    font-size: 100%;
+    background-color: purple;
+    color:white;
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+
+button:hover { 
+    background-color: plum;
 }
