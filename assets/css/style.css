@@ -43,3 +43,11 @@ h1 {
 margin-left: 30%;
 margin-right: 30%
 }
+
+.finalsscore h1 {
+    font-size: 30%;
+}
+
+.finalscore p {
+    text-align: center;
+}
