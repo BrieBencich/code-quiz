@@ -22,3 +22,24 @@ button {
 button:hover { 
     background-color: plum;
 }
+
+.stopwatch { 
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 10px;  
+}
+
+h1 { 
+    text-align: center;
+}
+
+.quiz p {
+    text-align: center;
+}
+
+.quiz button {
+    width: 40%;
+margin-left: 30%;
+margin-right: 30%
+}
