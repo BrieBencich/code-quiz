@@ -11,12 +11,11 @@
     <div class="highscore" >
         <h2>Highscores</h2>
         <ol id="highscores"></ol>
-    <button> Go Back </button>
     <button id="clear"> Clear Highschores</button>
     </div>
     <div class="timer">Timer: <spane id="time">0</spane></div>
 
-    <div class="quiz" >
+    <div class="wrapper" >
     <div id="start-quiz" class="start">
         <h1> Quiz Challenge Begins</h1>
         <p>
@@ -24,14 +23,15 @@
            knowledge. If you so not get one correct, it will be marked as incorrect. If you get 
            a question incorrect, the timer will subratact 10 seconds from your time allowed. 
         </p>
-        <button id="start-btn">Start Javascript Quiz</button>
+        <button id="start" class="start-btn btn">Start Javascript Quiz</button>
     </div>
 
 
     <div id="questions" class="hide">
     <h2 id="questions-title"></h2>
-     <div id="choices" class="pickone"></div>
-    
+     <div id="choices" class="choices"></div>
+        </div>
+    </div>
  </div>
 
  <div id="last-page" class="finalscore">
