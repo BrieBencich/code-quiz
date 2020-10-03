@@ -8,35 +8,38 @@
 </head>
 
 <body>
-    <div class="highscore" >
+    <div class="hide" id="highscore-section">
         <h2>Highscores</h2>
         <ol id="highscores"></ol>
+        <button>Go Back</button>
     <button id="clear"> Clear Highschores</button>
     </div>
+    
+
     <div class="timer">Timer: <spane id="time">0</spane></div>
 
     <div class="wrapper" >
-    <div id="start-quiz" class="start">
+    <div id="start-screen" class="start">
         <h1> Quiz Challenge Begins</h1>
         <p>
            It's time to start the quiz! Please answer all the queston to the best of your
            knowledge. If you so not get one correct, it will be marked as incorrect. If you get 
            a question incorrect, the timer will subratact 10 seconds from your time allowed. 
         </p>
-        <button id="start" class="start-btn btn">Start Javascript Quiz</button>
+        <button id="start">Start Javascript Quiz</button>
     </div>
 
 
     <div id="questions" class="hide">
-    <h2 id="questions-title"></h2>
-     <div id="choices" class="choices"></div>
-        </div>
+      <h2 id="question-title"></h2>
+      <div id="choices" class="choices"></div>
+      <div id="feedback"></div> 
     </div>
- </div>
+    
 
- <div id="last-page" class="finalscore">
+ <div id="end-screen" class="hide">
      <h1> You're Finished! </h1>
-     <h1> Your Final Score is:</h1>
+     <p> You Final Score is<span id="final-score"></span>.</p>
      <p> Enter your Initials : <input type="text" id="initials" />
         <button id="submit">Submit Final Score</button>
      </p>
